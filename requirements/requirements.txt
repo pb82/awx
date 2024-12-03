@@ -23,6 +23,7 @@ asgiref==3.7.2
     #   channels-redis
     #   daphne
     #   django
+    #   django-ansible-base
     #   django-cors-headers
 asn1==2.7.0
     # via -r /awx_devel/requirements/requirements.in
@@ -371,6 +372,7 @@ pygerduty==0.38.3
 pyjwt[crypto]==2.8.0
     # via
     #   adal
+    #   django-ansible-base
     #   msal
     #   twilio
 pyopenssl==24.0.0
@@ -423,6 +425,7 @@ requests==2.31.0
     #   -r /awx_devel/requirements/requirements.in
     #   adal
     #   azure-core
+    #   django-ansible-base
     #   django-oauth-toolkit
     #   kubernetes
     #   msal
@@ -501,6 +504,7 @@ typing-extensions==4.9.0
 urllib3==1.26.18
     # via
     #   botocore
+    #   django-ansible-base
     #   kubernetes
     #   requests
 uwsgi==2.0.24
